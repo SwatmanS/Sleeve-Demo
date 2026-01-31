@@ -1,0 +1,295 @@
+<!doctype html>
+<!-- Hello! I hope this code base is somewhat navigable. I've added comments to both describe sections and to leave notes to myself. :) -->
+<html lang="en">
+   
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="icon" type="image/x-icon" href="favicon.ico">-->
+    <link href="./Styles/default.css" rel="stylesheet" type="text/css" media="all">
+    <title>Sleeve Magazine</title>
+    <meta name="description" content="Demo of sleeve website structure">
+</head>
+
+<body>
+    <nav>
+        <!-- NavBar Top Left Logo, Top Right Links (Collapse Into Burger) -->
+        <!-- Anchor to Top ALWAYS VISIBLE -->
+        <!-- Should Work When cpy/pst to different page in ./-->
+        <ul>
+            <li><a class="Nav-Logo" href="#" title="ToolTip">Logo</a></li>
+            <li><a class="Nav-Burger" href="#" title="ToolTip">Text Logo</a></li>
+            <span class="Nav-Links"> 
+            <!-- Div makes sure it's in the same order as is written -->
+            <!-- And is a nice visual seperator-->
+                <li><a class="Nav-Itm" title="ToolTip" href="./index.html">Articles</a></li>
+                <li><a class="Nav-Itm" title="ToolTip" href="">About</a></li>
+                <li><a class="Nav-Itm"  href="">Login</a></li>
+            </span>
+        </ul>
+    </nav>
+
+    <header>
+        <section id="Hdr-Img">
+            <!-- Placeholder for Image -->
+        </section>
+        <section id="Hdr-Frm">
+            <!-- Placeholder for Intro Frame Image -->
+        </section>
+    </header>
+    
+    <main>
+        <!-- All of this shold be dynamic filling with ... filler to get design down then we can do funky shit B) -->
+        <section class="latest-article">
+            <!-- Latest Article Section-->
+            <h2><strong>Latest Article</strong></h2>
+            <article>
+                <figure>
+                    <img src="https://placehold.net/400x400.png" alt="Placeholder Image">
+                    <figcaption>
+                        <h3>Article Title</h3>
+                        <p>By Author Name | Date Published</p>
+                        <p>Brief summary or excerpt of the latest article goes here. This should entice readers to click through and read the full article.</p>
+                        <a class="Read-More-Btn" href="" title="ToolTip">Read More</a>
+                    </figcaption>
+                </figure>
+                <h3>Grassroots Venues in Crisis: The Importance of Independent Venue Week</h3>
+                <span class="Article-Meta">
+                    <span class="Article-Tags">
+                        <ul>
+                            <li><a href="">Community</a></li>
+                            <li><a href="">Music</a></li>
+                        </ul>
+                    </span>
+                    <span class="Article-Author">By Josie Croucher</span>
+                    <span class="Article-Date">January 31<sup>st</sup>,2026</span>
+                </span>
+            </article>
+        </section>
+
+        <section id="Featured-Fashion-Articles">
+            <h2>Fashion</h2>
+            <article class="Fashion-Article">
+                <figure>
+                    <img src="https://placehold.net/400x400.png" alt="Placeholder Image">
+                </figure>
+                <h3>Like A Bullet To The Chest</h3>
+                <span class="Article-Meta">
+                    <span class="Article-Tags">
+                        <ul>
+                            <li><a href="">Fashion</a></li>
+                            <li><a href="">Social</a></li>
+                        </ul>
+                    </span>
+                    <span class="Article-Author">By Kennedy Jayne</span>
+                    <span class="Article-Date">December 16<sup>th</sup>,2025</span>
+                </span>
+                <p>I was twelve when I purchased my first bra. It was about to be my…</p>
+                <span class="Read-More-Btn"><a href="" title="ToolTip">Read More</a></span>
+            </article>
+            
+            <article class="Fashion-Article">
+                <figure>
+                    <img src="https://placehold.net/400x400.png" alt="Placeholder Image">
+                </figure>
+                <h3>Rama Duwaji: Breaking the Fashion Mould of the Politician’s Wife Rama Duwaji: Breaking the Fashion Mould of the Politician’s Wife</h3>
+                <span class="Article-Meta">
+                    <span class="Article-Tags">
+                        <ul>
+                            <li><a href="">Fashion</a></li>
+                            <li><a href="">Social</a></li>
+                            <li><a href="">Politics</a></li>
+                        </ul>
+                    </span>
+                    <span class="Article-Author">By Kalypso Isaidou</span>
+                    <span class="Article-Date">December 12<sup>th</sup>,2025</span>
+                </span>
+                <p>Rama Duwaji via her Instagram / @ramaduwaji Anytime a man is elected in a significant… </p>
+                <span class="Read-More-Btn"><a href="" title="ToolTip">Read More</a></span>
+            </article>
+        </section>
+
+        <section id="Featured-Social-Articles">
+            <h2>Social</h2>
+            <article class="Social-Article">
+                <figure>
+                    <img src="https://placehold.net/400x400.png" alt="Placeholder Image">
+                </figure>
+                <h3>Feel Good Feminism is Giving Us Indigestion Feel Good Feminism is Giving Us Indigestion</h3>
+                <span class="Article-Meta">
+                    <span class="Article-Tags">
+                        <ul>
+                            <li><a href="">Social</a></li>
+                            <li><a href="">Politics</a></li>
+                        </ul>
+                    </span>
+                    <span class="Article-Author">By Kalypso Isaidou</span>
+                    <span class="Article-Date">September 15<sup>th</sup>,2025</span>
+                </span>
+                <p>My best friend and I share a bookshelf of feminist books – it is an… </p>
+                <span class="Read-More-Btn"><a href="" title="ToolTip">Read More</a></span>
+            </article>
+            
+            <article class="Social-Article">
+                <figure>
+                    <img src="https://placehold.net/400x400.png" alt="Placeholder Image">
+                </figure>
+                <h3>Silence is Impossible: Make some noise for Brian Eno’s ‘Together for Palestine’ gig</h3>
+                <span class="Article-Meta">
+                    <span class="Article-Tags">
+                        <ul>
+                            <li><a href="">Social</a></li>
+                            <li><a href="">Music</a></li>
+                            <li><a href="">Politics</a></li>
+                        </ul>
+                    </span>
+                    <span class="Article-Author">By Lucy Chung</span>
+                    <span class="Article-Date">September 3<sup>rd</sup>,2025</span>
+                </span>
+                <p>Eno gathers a line-up to get excited about for the September event Brian Eno’s “Together…  </p>
+                <span class="Read-More-Btn"><a href="" title="ToolTip">Read More</a></span>
+            </article>
+        </section>
+
+        <section id="Featured-Music-Articles">
+            <h2>Music</h2>
+            <article class="Music-Article">
+                <figure>
+                    <img src="https://placehold.net/400x400.png" alt="Placeholder Image">
+                </figure>
+                <h3>Grassroots Venues in Crisis: The Importance of Independent Venue Week</h3>
+                <span class="Article-Meta">
+                    <span class="Article-Tags">
+                        <ul>
+                            <li><a href="">Music</a></li>
+                            <li><a href="">Community</a></li>
+                        </ul>
+                    </span>
+                    <span class="Article-Author">By Josie Croucher</span>
+                    <span class="Article-Date">January 31<sup>st</sup>,2026</span>
+                </span>
+                <p>Since the pandemic, both independent music venues and artists have struggled exponentially to make ends… </p>
+                <span class="Read-More-Btn"><a href="" title="ToolTip">Read More</a></span>
+            </article>
+            
+            <article class="Music-Article">
+                <figure>
+                    <img src="https://placehold.net/400x400.png" alt="Placeholder Image">
+                </figure>
+                <h3>The mainstream media does not reflect your beliefs, that’s what folk music is for</h3>
+                <span class="Article-Meta">
+                    <span class="Article-Tags">
+                        <ul>
+                            <li><a href="">Music</a></li>
+                            <li><a href="">Social</a></li>
+                        </ul>
+                    </span>
+                    <span class="Article-Author">By Naomi Eden</span>
+                    <span class="Article-Date">December 12<sup>th</sup>,2025</span>
+                </span>
+                <p>Your activism might need folk music – and it may have been the closest we’ve ever been to true class consciousness… </p>
+                <span class="Read-More-Btn"><a href="" title="ToolTip">Read More</a></span>
+            </article>
+        </section>
+
+        <section id="Featured-Art-Articles">
+            <h2>Art</h2>
+            <article class="Art-Article">
+                <figure>
+                    <img src="https://placehold.net/400x400.png" alt="Placeholder Image">
+                </figure>
+                <h3>Classic Hollywood Daughters</h3>
+                <span class="Article-Meta">
+                    <span class="Article-Tags">
+                        <ul>
+                            <li><a href="">Art</a></li>
+                            <li><a href="">Cinema</a></li>
+                        </ul>
+                    </span>
+                    <span class="Article-Author">By Raquel Ruiz</span>
+                    <span class="Article-Date">January 29<sup>th</sup>,2026</span>
+                </span>
+                <p>While movie stardom can seem full of glitz and glamour, I wanted to get into the grittiness and how stressful it must’ve been for the daughters of these two iconic actresses to deal with the spotlight… </p>
+                <span class="Read-More-Btn"><a href="" title="ToolTip">Read More</a></span>
+            </article>
+            
+            <article class="Art-Article">
+                <figure>
+                    <img src="https://placehold.net/400x400.png" alt="Placeholder Image">
+                </figure>
+                <h3>Sleeve & The Gesture of Wrapping</h3>
+                <span class="Article-Meta">
+                    <span class="Article-Tags">
+                        <ul>
+                            <li><a href="">Art</a></li>
+                            <li><a href="">Community</a></li>
+                            <li><a href="">Social</a></li>
+                        </ul>
+                    </span>
+                    <span class="Article-Author">By Abigail Owen</span>
+                    <span class="Article-Date">December 23<sup>rd</sup>,2026</span>
+                </span>
+                <p>There was a time when opening a gift didn’t involve ripping, In a season built on nostalgia and memory, our wrapping rituals have become strangely disposable…  </p>
+                <span class="Read-More-Btn"><a href="" title="ToolTip">Read More</a></span>
+            </article>
+        </section>
+
+        <aside>
+            <!-- Not Sure what this sidebar is supposed to accomplish but I'll 1-2-1 it for sake of accuracy -->
+            <ul>
+                <li>
+                    <h2>Grassroots Venues in Crisis: The Importance of Independent Venue Week</h2>
+                    <time datetime="2026-01-31T15:37:26+00:00">January 31, 2026</time>
+                    <p>Since the pandemic, both independent music venues and artists have struggled exponentially to make ends meet. The Music Venue Trust reported that last year, the UK lost a grassroots music venue every fortnight. Rent and utility costs have risen sharply and for smaller venues, making a profit is near-impossible. Venues that rely only on live&hellip;</p>
+                </li>
+                <li>
+                    <h2>Sleeve &amp; The Gesture of Wrapping</h2>
+                    <time datetime="2025-12-23T18:43:21+00:00">December 23, 2025</time>
+                    <p>There was a time when opening a gift didn’t involve ripping. No glitter explosion. No plastic ribbon recoiling into the bin. In a season built on nostalgia and memory, our wrapping rituals have become strangely disposable. This year, I’ve been thinking about what it would mean to slow that moment down and to wrap presents&hellip;</p>
+                <li>
+                    <h2>Sleeve Spotlights: Celebrate Indian art and culture this October at Indika</h2>
+                    <time datetime="2025-10-21T19:48:52+01:00">October 21, 2025</time>
+                    <p>Presented to you by Milap, Indika, one of Europe’s largest festival of Indian classical arts is returning to Liverpool this year taking place throughout the 17th &#8211; 31st October. Coinciding with Milap’s 40 year anniversary, the 15 day celebration will feature a programme of Indian dance and culture, ranging from cutting-edge contemporary to deeply rooted&hellip;</p>
+                </li>
+                <li>
+                    <h2>Orchestra Baobab comes to Liverpool</h2>
+                    <time datetime="2025-05-28T17:52:06+01:00">May 28, 2025</time>
+                    <p>Orchestra Baobab live at the Philharmonic Hall on the 15th of June 2025 Born in Dakar in the early 1970s, Orchestra Baobab has long been renowned as one of Senegal’s most legendary bands. With a blend of African-Cuban style, traditional Griot music and international pop traces, Orchestra Baobab offers upbeat rhythms, melodic vocal lines and&hellip; </p>
+                </li>
+            </ul>            
+        </aside>
+
+    </main>
+    
+    <section id="Contact-Us">
+        <h1>Craving more?</h1>
+        <p>If you have questions in need of an answer or creativity in search of an outlet, reach out!<br>We would love to hear from you Xx</p>
+        <button class="Contact-Btn" type="button" title="ToolTip">Contact Us!</button>
+    </section>
+
+    <section id="Card-Links">
+        <ul>
+            <li><a class="Card-Itm" href="" title="ToolTip">Link 1</a></li>
+            <li><a class="Card-Itm" href="" title="ToolTip">Link 2</a></li>
+            <li><a class="Card-Itm" href="" title="ToolTip">Link 3</a></li>
+            <li><a class="Card-Itm" href="" title="ToolTip">Link 4</a></li>
+        </ul>
+    </section>
+
+
+    <footer>
+        <p>&copy; Sleeve 2025. All Rights Reserved.</p>
+    </footer>
+
+    
+    <div id="Background">
+    <!-- Only makes sense to do this once the content is completed ***IF NEEDED*** -->
+    </div>
+
+    <script>
+        
+    </script>
+
+</body>
+
+</html>
