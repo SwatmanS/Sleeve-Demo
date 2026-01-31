@@ -1,0 +1,47 @@
+/* Default Styles for Development*/
+html body 
+{
+    text-align: center;
+    * 
+    {
+        outline: solid 0.1vh black;
+        font-family: Consolas, monospace;
+    }
+}
+
+nav 
+{
+    ul
+    {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        div {
+                float: right;
+            }
+        li {
+            padding: 1vh 1vw;
+            float: left;
+            a 
+            {
+                display: block;
+                text-decoration: none;
+            }
+        }
+        li.logo {
+            float: left;
+        }
+    }
+}
+
+header 
+{
+    padding: 1vh 0;
+}
+
+footer 
+{
+    padding: 1vh 0;
+    
+}
