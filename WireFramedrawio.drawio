@@ -1,0 +1,91 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Page-1" id="NtMFb-aFkKW1bDI4x2hB">
+    <mxGraphModel dx="1041" dy="1753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="580" height="1960" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="220" width="540" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-4" value="Logo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="230" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-5" value="Login" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="230" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-6" value="About" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="230" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-7" value="Articles" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="230" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-8" value="Text&lt;div&gt;Logo&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="230" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="300" width="540" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="310" width="510" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-10" value="NavBar" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-12" value="Text Logo Bigger" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="440" width="290" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-13" value="Header Img" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="384" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-14" value="Quote Frame" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="720" width="510" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="950" width="540" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-16" value="Latest Article" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="980" width="500" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-17" value="Featured/Popular Articles IDK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1140" width="120" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-18" value="Fashion Articles" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1140" width="370" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-19" value="Social Articles" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1270" width="370" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-20" value="Music Articles" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1400" width="370" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-21" value="Art Articles" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1530" width="370" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-22" value="Contact Us" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1690" width="540" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-23" value="Cards for some fuckin reason" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="144" y="1830" width="540" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-24" value="Footer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="144" y="1980" width="536" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-25" value="Branding" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-26" value="Socials" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="2060" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-27" value="Copyright" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="2110" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jMTpSmoI3MLQGUCxnatJ-28" value="Contents Thing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="2000" width="120" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
