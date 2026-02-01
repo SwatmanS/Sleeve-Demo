@@ -12,31 +12,35 @@
 </head>
 
 <body>
+
+    <header>
+        
+        <section id="Hdr-Img">
+            <img src="./Media/Images/HeaderImage.jpeg" alt="Placeholder Header Image">
+        </section>
+
+        <section id="Hdr-Frm">
+            <img src="./Media/Images/QuoteFrame.png" alt="Placeholder Header Image">
+        </section>
+    </header>
+
     <nav>
         <!-- NavBar Top Left Logo, Top Right Links (Collapse Into Burger) -->
         <!-- Anchor to Top ALWAYS VISIBLE -->
         <!-- Should Work When cpy/pst to different page in ./-->
         <ul>
-            <li><a class="Nav-Logo" href="#" title="ToolTip">Logo</a></li>
-            <li><a class="Nav-Burger" href="#" title="ToolTip">Text Logo</a></li>
+            <li class="Nav-Logo"><a href="#" title="ToolTip">Logo</a></li>
+            <!--<li class="Nav-Text-Logo"><a href="#" title="ToolTip">Text Logo</a></li>-->
             <span class="Nav-Links"> 
             <!-- Div makes sure it's in the same order as is written -->
             <!-- And is a nice visual seperator-->
-                <li><a class="Nav-Itm" title="ToolTip" href="./index.html">Articles</a></li>
-                <li><a class="Nav-Itm" title="ToolTip" href="">About</a></li>
-                <li><a class="Nav-Itm"  href="">Login</a></li>
+                <li class="Nav-Itm"><a title="ToolTip" href="./index.html">Articles</a></li>
+                <li class="Nav-Itm"><a title="ToolTip" href="">About</a></li>
+                <li class="Nav-Itm"><a title="ToolTip" href="">Login</a></li>
             </span>
         </ul>
+        
     </nav>
-
-    <header>
-        <section id="Hdr-Img">
-            <!-- Placeholder for Image -->
-        </section>
-        <section id="Hdr-Frm">
-            <!-- Placeholder for Intro Frame Image -->
-        </section>
-    </header>
     
     <main>
         <!-- All of this shold be dynamic filling with ... filler to get design down then we can do funky shit B) -->
@@ -46,12 +50,6 @@
             <article>
                 <figure>
                     <img src="https://placehold.net/400x400.png" alt="Placeholder Image">
-                    <figcaption>
-                        <h3>Article Title</h3>
-                        <p>By Author Name | Date Published</p>
-                        <p>Brief summary or excerpt of the latest article goes here. This should entice readers to click through and read the full article.</p>
-                        <a class="Read-More-Btn" href="" title="ToolTip">Read More</a>
-                    </figcaption>
                 </figure>
                 <h3>Grassroots Venues in Crisis: The Importance of Independent Venue Week</h3>
                 <span class="Article-Meta">
